@@ -1,0 +1,495 @@
+/*  MEDİA START */
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* CSS */
+  
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS */
+  
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* CSS */
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (max-width: 1024px) {
+
+  html { 
+    overflow-x: hidden;
+  }
+  body {
+    background-color: white;
+    overflow-x: hidden;
+  }
+  
+
+  .split {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: none;
+  }
+  .split .div1,
+  .div2,
+  .div3 {
+    min-height: 100vh;
+    box-shadow: none;
+  }
+  .split .div1 {
+    display: none;
+  }
+  .split .div2 {
+    width: 100%;
+  }
+
+  .split .div3 {
+    display: none;
+    box-shadow: none;
+  }
+
+  /* font start */
+
+  .basliklar,
+  .textarea,
+  .input,
+  .hot,
+  .header1,
+  .header2,
+  
+  .buton {
+    min-height: 10px;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .downvote {
+    font-size: 15px;
+  }
+  .upvote {
+    font-size: 15px;
+  }
+  .icerikler p {
+    font-size: 16px;
+  }
+  .icerikler h1 {
+    font-size: 20px;
+  }
+  .div1 h5 {
+    font-size: 20px;
+  }
+  .div3 h5 {
+    font-size: 20px;
+  }
+
+  .header1,
+  .header2 {
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+    
+    
+  }
+
+  .header1:hover,
+  .header2:hover {
+    border: none;
+    
+    color: black;
+    background-color: white;
+  }
+
+  .nav {
+    
+   
+    background-color: white;
+    box-shadow: 0 4px 10px -2px black;
+    min-height: 50px;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
+
+  /* font end */
+
+  /* konu ekleme  start */
+
+  
+  .form p{ 
+
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .formdiv { 
+    
+ 
+  }
+
+
+
+  
+  .form-label {
+    font-size: 12px;
+    color: #5e9bfc;
+    margin: 0;
+    display: block;
+    opacity: 1;
+    -webkit-transition: .333s ease top, .333s ease opacity;
+    transition: .333s ease top, .333s ease opacity;
+   
+  }
+  .form-control {
+   
+    border-radius: 0;
+    border-color: #ccc;
+       border-width: 0 0 2px 0;
+       border-style: none none solid none;
+       box-shadow: none;
+  }
+  .form-control:focus {
+    box-shadow: none;
+    border-color: #5e9bfc;
+  }
+  .js-hide-label {
+    opacity: 0; 	
+  }
+  .js-unhighlight-label {
+    color: #999 
+  }
+  .btn-start-order {
+    background: 0 0 #ffffff;
+      border: 1px solid #2f323a;
+      border-radius: 3px;
+      color: #2f323a;
+      font-family: "Raleway", sans-serif;
+      font-size: 16px;
+      line-height: inherit;
+      margin: 30px 0;
+      padding: 10px 50px;
+      text-transform: uppercase;
+      transition: all 0.25s ease 0s;
+  }
+  .btn-start-order:hover,.btn-start-order:active, .btn-start-order:focus {
+    border-color: #5e9bfc;
+    color: #5e9bfc;
+  }
+  
+  
+
+
+.textarea {
+  background-color: white;
+  outline: none;
+  min-width: 100%;
+  min-height: 120px;
+  resize: none;
+  transition: 1s;
+  color: black;
+  
+
+  border: 1px solid black;
+  border-left:none ;
+  border-right:none ;
+ 
+}
+
+.buton{ 
+
+  
+  height: 50px;
+
+}
+
+
+.buton:hover{ 
+ 
+  width: 0px;
+  color: white;
+  
+
+}
+
+
+
+
+  /* konu ekleme end */
+
+
+  
+
+  .mobilnav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: black;
+  }
+
+  .nav-links {
+    overflow-x: hidden;
+    position: absolute;
+    right: 0px;
+    min-height: 100%;
+    top: 8vh;
+    
+    justify-content: space-around;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(100%);
+    transition: transform 0.5 ease-in;
+    border-bottom: 5px solid black;
+  }
+
+  .nav-active {
+    transform: translateX(0%);
+    transition: 1s;
+  }
+
+  .hot {
+    min-width: 250px;
+    min-height: 50px;
+    color: black;
+
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: 1s;
+
+    outline: none;
+    padding-top: 13px;
+    margin-top: 20px;
+  }
+  .hot:hover {
+    box-shadow: 10px 10px black;
+  }
+
+  .icerikler {
+    min-height: 200px;
+    color: #000000;
+    margin: 30px;
+    min-width: 100px;
+
+    background-color: white;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+  }
+  .basliklar {
+    min-width: 80%;
+    min-height: 50px;
+    color: black;
+
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: 1s;
+
+    outline: none;
+    margin-top: 10px;
+    padding-top: 13px;
+  }
+  .basliklar:hover {
+    box-shadow: none;
+  }
+
+  .upvote,
+  .downvote {
+    font-size: 25px;
+    color: black;
+    transition: 1s;
+    text-decoration: none;
+    padding-left: 0px;
+    padding-left: 0px;
+  }
+
+  .burger div {
+    width: 25px;
+    height: 4px;
+
+    background-color: white;
+    margin: 5px;
+  }
+
+  .burger {
+    display: block;
+    cursor: pointer;
+    margin-left: 70%;
+  }
+  .burger2 {
+    display: block;
+    cursor: pointer;
+  }
+
+  .burger2 div {
+    width: 25px;
+    height: 4px;
+
+    background-color: white;
+    margin: 5px;
+  }
+
+
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+
+  .nav-links2 {
+    overflow-x: hidden;
+    position: absolute;
+    right: 0px;
+    min-height: 100%;
+    top: 8vh;
+    
+    justify-content: space-around;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(-100%);
+    transition: transform 0.5 ease-in;
+    border-bottom: 5px solid black;
+  }
+
+  .nav-active2 {
+    transform: translateX(0%);
+    transition: 1s;
+  }
+
+  @keyframes navLinkFade2 {
+    from {
+      opacity: 0;
+      overflow-x: hidden;
+      transform: translateX(-50px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateX(-50px);
+    }
+  }
+
+
+  
+
+  .aramakutu{ 
+
+    margin-bottom: 20px;
+  }
+  
+  .aramatext{ 
+  
+    width: 180px;
+    height: 30px;
+    transition: 1s;
+    border: 2px solid black;
+    
+    outline: none;
+    text-decoration: none;
+  
+   
+  }
+  .aramatext:hover{ 
+  
+    width: 250px;
+    transition: 1s;
+  }
+  
+  .aramabuton{  
+  
+    border: none;
+    background-color: transparent;
+    transition: 1s;
+    font-size: 22px;
+    
+    color: black;
+   
+   
+  
+  }
+  .yayınlama{ 
+
+    font-size: 30px;
+  }
+  .input::-webkit-input-placeholder {
+    color: rgb(170, 170, 170); /*Change the placeholder color*/
+    opacity: 1; /*Change the opacity between 0 and 1*/
+  }
+  
+  .textarea::-webkit-input-placeholder {
+    color: rgb(170, 170, 170); /*Change the placeholder color*/
+    opacity: 1; /*Change the opacity between 0 and 1*/
+  }
+ 
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 15px;
+    
+    border: solid 1px;
+    outline: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: black;
+    color:white;
+      
+  
+      
+  }
+  
+  
+
+  
+  
+}
+
+/* CSS */
+
+/* MEDİA END */

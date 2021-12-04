@@ -1,0 +1,426 @@
+body {
+  background-color: white;
+  height: 100vh;
+}
+html{ 
+
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.nav {
+  min-width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 10px -2px black;
+  min-height: 50px;
+  color: black;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.header1 {
+  color: black;
+  text-decoration: none;
+  float: left;
+}
+.header2 {
+  color: black;
+  text-decoration: none;
+}
+
+.split {
+  display: flex;
+  justify-content: space-between;
+}
+.split .div1,
+.div2,
+.div3 {
+  min-height: 100vh;
+}
+.split .div1 {
+  width: 50vh;
+  background-color: white;
+  box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.split .div2 {
+  width: 90vh;
+}
+
+.split .div3 {
+  box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  width: 50vh;
+}
+
+.hot {
+  min-width: 100%;
+  min-height: 50px;
+  color: black;
+
+  background-color: white;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: 1s;
+  border-radius: 5px;
+  outline: none;
+  padding-top: 9px;
+  margin-top: 20px;
+}
+.hot:hover {
+  box-shadow: 10px 10px black;
+}
+
+.basliklar {
+  width: 50%;
+  min-height: 50px;
+  color: black;
+
+  background-color: white;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: 1s;
+
+  outline: none;
+  padding-top: 9px;
+}
+.basliklar:hover {
+  box-shadow: 10px 10px black;
+}
+
+.upvote {
+  padding-right: 10px;
+}
+
+.downvote {
+  padding-left: 10px;
+}
+
+.upvote,
+.downvote {
+  font-size: 30px;
+  color: black;
+ 
+  text-decoration: none;
+}
+
+.upvote:hover {
+  color: #ff4500;
+  cursor: pointer;
+}
+
+
+.upvote:focus {color:#ff4500; }
+
+.upvote:visited{
+ background-color:pink;
+}
+.downvote:hover {
+  cursor: pointer;
+  color: #336699;
+}
+.downvote:focus {color:#336699; }
+
+.input {
+  
+  height: 35px;
+  color: black;
+
+  background-color: white;
+  border: 1px solid black;
+
+  transition: 1s;
+  outline: none;
+  text-transform: uppercase;
+}
+
+.input::-webkit-input-placeholder {
+  color: black; /*Change the placeholder color*/
+  opacity: 0.3; /*Change the opacity between 0 and 1*/
+}
+
+.textarea::-webkit-input-placeholder {
+  color: black; /*Change the placeholder color*/
+  opacity: 0.3; /*Change the opacity between 0 and 1*/
+}
+.textarea {
+  background-color: white;
+  outline: none;
+  min-width: 100%;
+  min-height: 120px;
+  resize: none;
+  transition: 1s;
+  color: black;
+
+  border: 1px solid black;
+  border-left: none;
+  border-right: none;
+}
+
+
+.icerikler {
+  min-height: 200px;
+  color: #000000;
+  
+  margin: 100px;
+  min-width: 100px;
+ 
+
+  background-color: white;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+
+
+}
+.buton {
+  border: none;
+  color: white;
+  background-color: black;
+
+  min-width: 100px;
+  border-radius: 3px;
+}
+.buton:hover {
+  color: silver;
+}
+
+body {
+  overflow-x: hidden;
+}
+.mobilnav {
+  display: none;
+}
+
+.textarea,
+.input,
+.hot,
+.header1,
+.header2,
+.form p,
+.buton,
+.icerikler .basliklar {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.basliklar,
+
+.hot,
+
+.buton {
+  font-size: 20px;
+}
+.formdiv { 
+
+ 
+}
+.form-label {
+	font-size: 12px;
+	color: #5e9bfc;
+	margin: 0;
+	display: block;
+	opacity: 1;
+	-webkit-transition: .333s ease top, .333s ease opacity;
+	transition: .333s ease top, .333s ease opacity;
+}
+.form-control {
+	border-radius: 0;
+	border-color: #ccc;
+   	border-width: 0 0 2px 0;
+   	border-style: none none solid none;
+   	box-shadow: none;
+}
+.form-control:focus {
+	box-shadow: none;
+	border-color: #5e9bfc;
+}
+.js-hide-label {
+	opacity: 0; 	
+}
+.js-unhighlight-label {
+	color: #999 
+}
+.btn-start-order {
+	background: 0 0 #ffffff;
+    border: 1px solid #2f323a;
+    border-radius: 3px;
+    color: #2f323a;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: inherit;
+    margin: 30px 0;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    transition: all 0.25s ease 0s;
+}
+.btn-start-order:hover,.btn-start-order:active, .btn-start-order:focus {
+	border-color: #5e9bfc;
+	color: #5e9bfc;
+}
+
+
+
+.form p
+{ 
+  font-size: 30px;
+}
+
+.header1,
+.header2 {
+  font-size: 30px;
+  text-decoration: none;
+ font-family:  Calibri;
+  margin-top: 3px;
+}
+.header1:hover,
+.header2:hover {
+  text-decoration: none;
+  color: black;
+}
+
+
+::-webkit-input-placeholder {
+  /* WebKit browsers */
+  text-transform: none;
+}
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  text-transform: none;
+}
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  text-transform: none;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  text-transform: none;
+}
+::placeholder {
+  /* Recent browsers */
+  text-transform: none;
+}
+
+.aramakutu {
+  margin-bottom: 20px;
+ 
+}
+
+.aramatext {
+  width: 180px;
+  height: 30px;
+  transition: 1s;
+  border: 1px solid black;
+
+  outline: none;
+  text-decoration: none;
+}
+.aramatext:hover {
+  width: 250px;
+  transition: 1s;
+}
+
+.aramabuton {
+  border: none;
+  background-color: transparent;
+  transition: 1s;
+  font-size: 22px;
+
+  color: black;
+}
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  
+  border: solid 1px;
+  outline: none;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: black;
+  color:white;
+		 
+		
+	
+		
+
+    
+}
+
+
+.myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 30px;
+  z-index: 99;
+  font-size: 18px;
+  
+  border: solid 1px;
+  outline: none;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.myBtn:hover {
+  background-color: black;
+  color:white;
+		 
+		
+	
+		
+
+    
+}
+
+.dark-mode { 
+  background-color: #121212;
+  color: white;
+}
+
+
+.number {
+  display: inline-block;
+  text-align: center;
+  font-size: 17px;
+}
+
+.vote {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+  
+}
+
+.up-vote {
+  color: black;
+  cursor: pointer;
+  font-size: 23px;
+}
+
+.down-vote {
+  cursor: pointer;
+  color: black;
+  font-size: 23px;
+}
+
+.oySayi { 
+  color: black;
+  font-size: 30px;
+}
+
+
+textarea {
+	resize: none;
+}
