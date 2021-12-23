@@ -1,10 +1,12 @@
 # PHP ile mini sosyal medya projesi.
-> Upvote Downvote verme
+> Upvote Downvote verme.
 
-> Anonim olarak post paylaşma
+> Anonim olarak post paylaşma.
 
-> Yorum yapma
+> Yorum yapma.
 
-> Konuların Upvote'una göre üst sıralara yükselme
+> Konuların Upvote'una göre üst sıralara yükselme.
+
+> Cookieler kullanırak kullanıcıyı tanıma.
 
 
