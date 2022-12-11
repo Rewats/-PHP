@@ -7,6 +7,6 @@
 
 > Konuların Upvote'una göre üst sıralara yükselme.
 
-> Cookieler kullanırak kullanıcıyı tanıma.
+> Cookieler kullanılarak kullanıcıyı tanıma.
 
 
